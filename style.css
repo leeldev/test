@@ -1,0 +1,381 @@
+*, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ebebeb;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 100vh;
+	background-color: #fff;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	box-shadow: 0px 0px 20px #d4d4d4;
+
+	transition: .3s;
+	transition-timing-function: easy;
+    width: 270px;
+}
+
+.main-menu:hover {
+	width: 270px;
+	overflow-y: scroll;
+}
+
+.main-menu .menu-item {
+	padding: 10px;
+}
+
+.main-menu .menu-item:hover {
+	background-color:  rgb(132, 177, 250);
+	cursor: pointer;
+}
+
+.main-menu .menu-item .fa {
+	font-size: 25px;
+	width: 40px;
+	padding: 10px;
+	color: gray;
+}
+
+.main-menu .menu-item:hover > .fa {
+	color: #3871C6FF;
+}
+
+section#home {
+	background-color: #f3f3f3;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #bbbbbb;
+	border-radius: 10px;
+}
+
+.isits-h1-seasons{
+    margin-left: 180px;
+    margin-top: 20px;
+	font-family: cursive;
+}
+.span-isit-one{
+    margin-left: 120px;
+    margin-top: 20px;
+font-family: sans-serif;
+
+}
+
+
+.span-isit-two{
+    margin-top: 20px;
+font-family: sans-serif;
+   color: rgb(19, 83, 151);     
+}
+
+
+.span-isit-three{
+    margin-top: 20px;
+	font-family: sans-serif;
+}
+
+
+.span-isit-for{
+    margin-top: 20px;
+    font-family: sans-serif;   
+}
+
+.span-isit-fifhy{
+    margin-top: 20px;
+    font-family: sans-serif;  
+}
+
+.isit-worlds-h{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+.new-york{
+	width: 370px;
+	height: 250px;
+	margin-left: 300px;
+	margin-top: 50px;
+	border-radius: 50px 0px 0px 0px;
+}
+
+.angliya{
+	width: 370px;
+	height: 250px;
+	margin-left: 700px;
+    margin-top: -490px;
+	border-radius: 50px 0px 0px 0px;
+}
+
+
+.isits-tees-h1{
+	margin-left: 300px;
+}
+
+.isits-tees-h2{
+	margin-left: 700px;
+}
+
+.isit-parents-button{
+	width: 100px;
+	height: 25px;
+    color: rgb(0, 123, 255); 
+}
+
+.isit-parents-button:hover{
+	color: rgb(0, 123, 255);
+}
+
+.settings{
+	background-color: rgb(223, 223, 223);
+	width: 490px;
+	height: 320px;
+	margin-left: 1400px;
+	margin-top: 175px;
+}
+
+.settings img{
+	width: 110px;
+	border-radius: 90px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.settings h1{
+	margin-left: 155px;
+	margin-top: -92px;
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);;
+}
+.settings p{
+	margin-left: 155px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	color: rgb(0, 123, 255);
+}
+
+.settings h5{
+	margin-left: 25px;
+	margin-top: 52px;
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);;
+}
+
+.settings button{
+	margin-left: 24px;
+	margin-top: 10px;
+	width: 140px;
+	height: 30px;
+	color: rgb(0, 123, 255);
+}
+
+
+
+.problems{
+	background-color: rgb(223, 223, 223);
+	width: 490px;
+	height: 320px;
+	margin-left: 1400px;
+	margin-top: 80px;
+}
+
+.problems img{
+	width: 110px;
+	border-radius: 90px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.problems h1{
+	margin-left: 155px;
+	margin-top: -92px;
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);;
+}
+.problems p{
+	margin-left: 155px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	color: rgb(0, 123, 255);
+}
+
+.problems h5{
+	margin-left: 25px;
+	margin-top: 52px;
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);;
+}
+
+.problems button{
+	margin-left: 24px;
+	margin-top: 10px;
+	width: 140px;
+	height: 30px;
+	color: rgb(0, 123, 255);
+}
+
+.makkahlive-logos{
+	margin-left: 1400px;
+	margin-top: -1900px;
+}
+
+.makkahlive-logos button{
+	margin-left: 100px;
+	margin-top: -40px;
+	width: 140px;
+	height: 30px;
+	color: rgb(0, 123, 255);
+}
+
+.makkahlive-logos img{
+	margin-left: 290px;
+	margin-top: -32px;
+	width: 160px;
+}
+
+
+.livetv-logos{
+	margin-left: 1560px;
+	margin-top: 100px;
+}
+
+.livetv-logos button{
+	margin-left: -56px;
+	margin-top: -40px;
+	width: 140px;
+	height: 30px;
+	color: rgb(0, 123, 255);
+}
+
+.livetv-logos img{
+	margin-left: 133px;
+	margin-top: -32px;
+	width: 160px;
+	height: 138px;
+}
+
+.makkahlive-logos{
+	margin-left: 1400px;
+	margin-top: -1900px;
+}
+
+.makkahlive-logos button{
+	margin-left: 100px;
+	margin-top: -40px;
+	width: 140px;
+	height: 30px;
+	color: rgb(0, 123, 255);
+}
+
+.makkahlive-logos img{
+	margin-left: 290px;
+	margin-top: -32px;
+	width: 160px;
+}
+
+
+.zortv-logos{
+	margin-left: 1560px;
+	margin-top: 100px;
+}
+
+.zortv-logos button{
+	margin-left: -56px;
+	margin-top: -40px;
+	width: 140px;
+	height: 30px;
+	color: rgb(0, 123, 255);
+}
+
+.zortv-logos img{
+	margin-left: 133px;
+	margin-top: -32px;
+	width: 160px;
+	height: 138px;
+}
+
+.fade-left{
+	transition: 14s;
+}
+
+.americatv-logos{
+	margin-left: 1560px;
+	margin-top: 100px;
+}
+
+.americatv-logos button{
+	margin-left: -56px;
+	margin-top: -90px;
+	width: 140px;
+	height: 30px;
+	color: rgb(0, 123, 255);
+}
+
+.americatv-logos img{
+	margin-left: 133px;
+	margin-top: -32px;
+	width: 160px;
+	height: 138px;
+}
+
+
+
+.hr-isits-crash{
+	width: 0px;
+	height: 2120px;
+	margin-left: 1300px;
+	margin-top: -2160px;
+	
+}
+
+
+
+.news{
+	background-color: rgb(214, 214, 214);
+	margin-top: 300px;
+	height: 400px;
+	width: 790px;
+	margin-left: 300px;
+	position: relative;
+}
+
+.news h1{
+	margin-top: 90px;
+}
+
+.news span{
+	color:  rgb(132, 177, 250);
+}
+
+.news p{
+	padding: 30px 10px;
+}
+
+
+.news img{
+	width: 190px;
+    right: 0;
+	position: absolute;
+	top: 0;
+}
+
+
